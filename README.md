@@ -37,21 +37,6 @@ The following endpoints are available at `http://localhost:3000`:
 - `GET /locations` - Get available locations
 - `GET /users` - Get staff members
 
-## Features to Implement
-
-1. View a list of upcoming shifts
-2. Create a new shift with:
-   - Start time
-   - End time
-   - Location
-   - Required staff count
-   - Notes
-3. Filter shifts by:
-   - Date range
-   - Location
-   - Staff member
-4. Display shift coverage status
-
 ## Technical Notes
 
 - The project uses SvelteKit, Tailwind CSS, and a JSON Server backend
@@ -64,12 +49,3 @@ If you encounter any issues:
 
 1. Make sure both the API server (`npm run api`) and the development server (`npm run dev`) are running
 2. If you see TypeScript errors, try simplifying the type usage or using JavaScript as shown in the current implementation
-
-## Evaluation Criteria
-
-- API integration and error handling
-- Component design and reusability
-- State management approach
-- UI/UX implementation
-- Code organization
-- Documentation
