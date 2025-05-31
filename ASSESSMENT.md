@@ -1,157 +1,187 @@
-# Shift Management Assessment
+# Recipe Collection Assessment
 
 ## Overview
 
-You'll be building a shift management dashboard that allows users to view, create, and manage shifts for a team. The project uses SvelteKit, TypeScript, and TailwindCSS, with a mock API powered by JSON Server.
-
-## Setup
-
-1. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-2. Start the JSON Server (in one terminal):
-
-   ```bash
-   npm run api
-   ```
-
-3. Start the development server (in another terminal):
-   ```bash
-   npm run dev
-   ```
+You'll be enhancing a recipe collection application with **both frontend and backend improvements**. Choose the track that best matches your skills, or tackle both if time permits. This assessment is designed to be completed in **1-2 hours**.
 
 ## Current State
 
 The project has been set up with:
 
-- Basic project structure
-- TypeScript types for Shifts, Locations, and Users
-- Mock API with sample data
-- Basic shift listing functionality
+- Next.js 15 with React and TypeScript frontend
+- JSON Server backend with 15 sample recipes
+- Basic search, filtering, and pagination (6 recipes per page)
+- Beautiful recipe card layout with Tailwind CSS
 
-## Required Features
+## Choose Your Focus
 
-### 1. Shift Creation Form
+### Track A: Frontend Focus (1-2 hours)
 
-Create a form component that allows users to:
+**Goal**: Enhance the user experience and visual design
 
-- Select a location from the available options
-- Set start and end times
-- Specify required staff count
-- Add notes
-- Submit the new shift to the API
+#### Required Tasks:
 
-### 2. Shift Filtering
+1. **Enhanced Recipe Cards** (30 min)
 
-Implement filtering functionality to:
+   - Add a "favorite" heart icon with toggle functionality
+   - Improve hover animations and visual feedback
+   - Add dietary restriction badges (vegetarian, vegan, etc.)
 
-- Filter shifts by date range
-- Filter by location
-- Filter by staff member
-- Combine multiple filters
+2. **Recipe Form** (45 min)
 
-### 3. Shift Management
+   - Create an "Add New Recipe" form with validation
+   - Include: title, cuisine, difficulty, cook time, ingredients (dynamic list)
+   - Form validation with error messages
+   - Success state with confirmation
 
-Add the ability to:
+3. **Mobile Improvements** (15 min)
+   - Ensure responsive design works well on mobile
+   - Optimize filter interface for smaller screens
 
-- Edit existing shifts
-- Delete shifts
-- Mark shifts as complete
-- View shift details
+### Track B: Backend Focus (1-2 hours)
 
-### 4. Staff Assignment
+**Goal**: Replace JSON Server with a proper Express API
 
-Implement functionality to:
+#### Required Tasks:
 
-- View available staff for a shift
-- Assign staff to shifts
-- Remove staff from shifts
-- Show staff availability
+1. **Express API Setup** (30 min)
 
-### 5. UI/UX Improvements
+   - Create a proper Express server with TypeScript
+   - Set up CORS and basic middleware
+   - Replace JSON Server with Express routes
 
-Enhance the user interface with:
+2. **CRUD Operations** (45 min)
 
-- Loading states
-- Error handling
-- Success notifications
-- Responsive design
-- Accessibility features
+   - `GET /api/recipes` - with pagination, search, and filtering
+   - `POST /api/recipes` - create new recipe with validation
+   - `PUT /api/recipes/:id` - update existing recipe
+   - `DELETE /api/recipes/:id` - delete recipe
+   - Proper error handling and status codes
+
+3. **Advanced Features** (15 min)
+   - Input validation and sanitization
+   - Search functionality (title, ingredients, cuisine)
+   - Query parameters for filtering (cuisine, difficulty, cook time range)
+
+### Track C: Full Stack (1-2 hours)
+
+**Goal**: Implement both frontend and backend improvements
+
+#### Required Tasks:
+
+1. **Backend API** (45 min)
+
+   - Express server with basic CRUD operations
+   - Search and filter endpoints
+   - Input validation
+
+2. **Frontend Integration** (30 min)
+
+   - Connect React app to new Express API
+   - Add basic recipe form
+   - Improve error handling
+
+3. **Polish** (15 min)
+   - Loading states
+   - Basic responsive improvements
 
 ## Technical Requirements
 
-### TypeScript
+### All Tracks:
 
-- Use proper type definitions
-- Implement interfaces for all data structures
-- Add type safety to API calls
-- Use proper error types
+- **Clean Code**: Well-organized, commented code
+- **TypeScript**: Proper type definitions
+- **Error Handling**: Graceful error states
+- **Testing**: Manual testing of all implemented features
 
-### State Management
+### Backend Specific:
 
-- Implement proper state management for shifts
-- Handle loading and error states
-- Manage form state
-- Cache API responses where appropriate
+- **API Design**: RESTful endpoints with proper HTTP methods
+- **Data Validation**: Server-side validation for all inputs
+- **Error Responses**: Consistent error format with appropriate status codes
+- **Code Structure**: Organized routes, middleware, and utilities
 
-### API Integration
+### Frontend Specific:
 
-- Implement proper error handling
-- Add retry logic for failed requests
-- Handle API response validation
-- Implement proper loading states
-
-### Code Quality
-
-- Follow TypeScript best practices
-- Implement proper error handling
-- Add appropriate comments
-- Follow SvelteKit conventions
-- Use proper component structure
-
-## Bonus Features
-
-- Add shift conflict detection
-- Implement shift templates
-- Add drag-and-drop for staff assignment
-- Add keyboard shortcuts
-- Implement dark/light mode
-- Add unit tests
+- **Component Design**: Reusable, well-structured React components
+- **State Management**: Efficient state handling with hooks
+- **User Experience**: Intuitive interactions and feedback
+- **Responsive Design**: Works well on mobile and desktop
 
 ## Evaluation Criteria
 
-Your solution will be evaluated on:
+**Backend Track:**
 
-1. Feature prioritization
-2. Code organization and structure
-3. TypeScript usage and type safety
-4. Component design and reusability
-5. State management approach
-6. UI/UX implementation
-7. Error handling
-8. Documentation
-9. Bonus feature implementation
+- API design and RESTful principles (30%)
+- Data validation and error handling (25%)
+- Code organization and TypeScript usage (25%)
+- Feature completeness (20%)
 
-## Time Limit
+**Frontend Track:**
 
-1-2 hours
+- User interface and visual design (30%)
+- React component structure (25%)
+- User experience and interactions (25%)
+- Feature completeness (20%)
+
+**Full Stack Track:**
+
+- Integration between frontend and backend (35%)
+- Code quality across both layers (30%)
+- Feature completeness (35%)
+
+## Getting Started
+
+1. **Choose your track** based on your strengths
+2. **Review existing code** to understand the current structure
+3. **Start with setup** (backend devs: create Express app, frontend devs: review React components)
+4. **Implement core features** before adding polish
+5. **Test thoroughly** before submission
+
+## Bonus Features (if time permits)
+
+**Backend:**
+
+- Rate limiting
+- Basic authentication
+- Database integration (SQLite)
+- Recipe image upload handling
+
+**Frontend:**
+
+- Dark mode toggle
+- Recipe comparison feature
+- Advanced search with filters
+- Drag and drop for ingredients
 
 ## Submission
 
-1. Fork the repository
-2. Implement the required features
-3. Add a README.md with:
-   - Setup instructions
-   - Technical decisions made
-   - Any trade-offs considered
-4. Submit a pull request with your changes
+Include in your submission:
 
-## Notes
+1. **Working application** with implemented features
+2. **Brief README** explaining what you built and how to run it
+3. **Any assumptions** or trade-offs you made
+4. **Time tracking** (what you completed in the allocated time)
 
-- Focus on core functionality first
-- Implement bonus features if time permits
-- Ensure code is clean and well-documented
-- Test your implementation thoroughly
+## Setup Instructions
+
+```bash
+# Install dependencies
+npm run setup
+
+# Start both servers (or just the one you're working with)
+npm run dev
+
+# Or start individually:
+npm run frontend  # http://localhost:3000
+npm run backend   # http://localhost:3001
+```
+
+## API Reference (Current JSON Server)
+
+- `GET /recipes` - Get all recipes
+- `GET /recipes?_page=1&_limit=6` - Paginated recipes
+- `GET /recipes?cuisine=Italian` - Filter by cuisine
+- `GET /recipes?q=search-term` - Search recipes
+
+**Backend developers**: Replace this with your Express implementation!

@@ -1,0 +1,32 @@
+{
+  "name": "recipe-collection-backend",
+  "version": "1.0.0",
+  "description": "Backend API for recipe collection app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --watch db.json --port 3001",
+    "start": "json-server db.json --port 3001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "recipes",
+    "api",
+    "json-server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.29",
+    "json-server": "^1.0.0-beta.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

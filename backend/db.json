@@ -1,0 +1,207 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Classic Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "difficulty": "Medium",
+      "cookTime": 20,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400",
+      "rating": 4.8,
+      "ingredients": [
+        "spaghetti",
+        "eggs",
+        "pancetta",
+        "parmesan",
+        "black pepper"
+      ],
+      "description": "Creamy Italian pasta dish with eggs, cheese, and pancetta"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "cuisine": "Indian",
+      "difficulty": "Hard",
+      "cookTime": 45,
+      "servings": 6,
+      "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400",
+      "rating": 4.6,
+      "ingredients": ["chicken", "tomatoes", "cream", "garam masala", "onions"],
+      "description": "Rich and creamy Indian curry with tender chicken"
+    },
+    {
+      "id": 3,
+      "title": "Avocado Toast",
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "cookTime": 5,
+      "servings": 1,
+      "image": "https://images.unsplash.com/photo-1541519920360-6ed6ad741b76?w=400",
+      "rating": 4.2,
+      "ingredients": ["avocado", "bread", "lime", "salt", "chili flakes"],
+      "description": "Simple and healthy breakfast with mashed avocado"
+    },
+    {
+      "id": 4,
+      "title": "Beef Tacos",
+      "cuisine": "Mexican",
+      "difficulty": "Easy",
+      "cookTime": 15,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400",
+      "rating": 4.5,
+      "ingredients": ["ground beef", "tortillas", "lettuce", "cheese", "salsa"],
+      "description": "Flavorful ground beef tacos with fresh toppings"
+    },
+    {
+      "id": 5,
+      "title": "Caesar Salad",
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "cookTime": 10,
+      "servings": 2,
+      "image": "https://images.unsplash.com/photo-1512852939750-1305098529bf?w=400",
+      "rating": 4.0,
+      "ingredients": [
+        "romaine lettuce",
+        "croutons",
+        "parmesan",
+        "caesar dressing"
+      ],
+      "description": "Classic crisp salad with caesar dressing and croutons"
+    },
+    {
+      "id": 6,
+      "title": "Pad Thai",
+      "cuisine": "Thai",
+      "difficulty": "Medium",
+      "cookTime": 25,
+      "servings": 3,
+      "image": "https://images.unsplash.com/photo-1559314809-0f31657def5e?w=400",
+      "rating": 4.7,
+      "ingredients": [
+        "rice noodles",
+        "shrimp",
+        "bean sprouts",
+        "peanuts",
+        "lime"
+      ],
+      "description": "Sweet and tangy Thai stir-fried noodles"
+    },
+    {
+      "id": 7,
+      "title": "Chocolate Chip Cookies",
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "cookTime": 25,
+      "servings": 24,
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400",
+      "rating": 4.9,
+      "ingredients": ["flour", "butter", "chocolate chips", "eggs", "vanilla"],
+      "description": "Classic chewy cookies loaded with chocolate chips"
+    },
+    {
+      "id": 8,
+      "title": "Greek Salad",
+      "cuisine": "Greek",
+      "difficulty": "Easy",
+      "cookTime": 10,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400",
+      "rating": 4.3,
+      "ingredients": ["tomatoes", "cucumber", "feta", "olives", "olive oil"],
+      "description": "Fresh Mediterranean salad with feta and olives"
+    },
+    {
+      "id": 9,
+      "title": "Ramen Bowl",
+      "cuisine": "Japanese",
+      "difficulty": "Medium",
+      "cookTime": 30,
+      "servings": 2,
+      "image": "https://images.unsplash.com/photo-1623341214825-9f4f963727da?w=400",
+      "rating": 4.4,
+      "ingredients": ["ramen noodles", "pork", "eggs", "scallions", "miso"],
+      "description": "Rich and savory Japanese noodle soup"
+    },
+    {
+      "id": 10,
+      "title": "Margherita Pizza",
+      "cuisine": "Italian",
+      "difficulty": "Medium",
+      "cookTime": 40,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=400",
+      "rating": 4.6,
+      "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"],
+      "description": "Classic Italian pizza with fresh mozzarella and basil"
+    },
+    {
+      "id": 11,
+      "title": "Fish and Chips",
+      "cuisine": "British",
+      "difficulty": "Medium",
+      "cookTime": 35,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400",
+      "rating": 4.1,
+      "ingredients": ["cod", "potatoes", "flour", "beer", "oil"],
+      "description": "Crispy battered fish with golden chips"
+    },
+    {
+      "id": 12,
+      "title": "Moroccan Tagine",
+      "cuisine": "Moroccan",
+      "difficulty": "Hard",
+      "cookTime": 120,
+      "servings": 6,
+      "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400",
+      "rating": 4.5,
+      "ingredients": ["lamb", "apricots", "spices", "onions", "almonds"],
+      "description": "Slow-cooked Moroccan stew with tender meat and fruits"
+    },
+    {
+      "id": 13,
+      "title": "Korean BBQ Bowl",
+      "cuisine": "Korean",
+      "difficulty": "Medium",
+      "cookTime": 30,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400",
+      "rating": 4.7,
+      "ingredients": [
+        "bulgogi beef",
+        "rice",
+        "kimchi",
+        "vegetables",
+        "gochujang"
+      ],
+      "description": "Marinated beef with rice and Korean vegetables"
+    },
+    {
+      "id": 14,
+      "title": "French Onion Soup",
+      "cuisine": "French",
+      "difficulty": "Medium",
+      "cookTime": 60,
+      "servings": 4,
+      "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+      "rating": 4.4,
+      "ingredients": ["onions", "beef broth", "gruyere", "wine", "thyme"],
+      "description": "Rich caramelized onion soup topped with melted cheese"
+    },
+    {
+      "id": 15,
+      "title": "Smoothie Bowl",
+      "cuisine": "American",
+      "difficulty": "Easy",
+      "cookTime": 5,
+      "servings": 1,
+      "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400",
+      "rating": 4.2,
+      "ingredients": ["banana", "berries", "granola", "coconut", "honey"],
+      "description": "Healthy breakfast bowl with fruits and toppings"
+    }
+  ]
+}
