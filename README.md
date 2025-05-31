@@ -37,20 +37,21 @@ A beautiful recipe collection application built with React/Next.js frontend and 
    cd assessment
    ```
 
-2. **Install Frontend Dependencies**
+2. **Install All Dependencies**
 
    ```bash
-   cd frontend
-   npm install
+   npm run setup
    ```
 
-3. **Install Backend Dependencies**
+### Running the Application (simulataneously)
+
+1. **Start the Application**
+
    ```bash
-   cd ../backend
-   npm install
+   npm run dev
    ```
 
-### Running the Application
+### Running the Application (separately)
 
 1. **Start the Backend API** (in one terminal):
 
